@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luiz Alves - Portfólio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; background: #f5f7fa; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        header { text-align: center; padding: 30px 0; background: #2c3e50; color: white; }
+        h1 { font-size: 2.2rem; margin-bottom: 10px; }
+        h2 { color: #2c3e50; margin: 20px 0 15px; padding-bottom: 8px; border-bottom: 2px solid #3498db; }
+        section { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        ul { list-style-type: none; }
+        li { margin-bottom: 8px; padding-left: 20px; position: relative; }
+        li:before { content: "•"; color: #3498db; font-weight: bold; position: absolute; left: 0; }
+        .contact { display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin: 15px 0; }
+        .contact span { display: inline-flex; align-items: center; gap: 5px; }
+        .skills { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
+        .skill { background: #3498db; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.9rem; }
+        footer { text-align: center; padding: 20px; color: #7f8c8d; font-size: 0.9rem; }
+        @media (max-width: 600px) {
+            .contact { flex-direction: column; align-items: center; gap: 8px; }
+            h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Luiz Alves da Silva Neto</h1>
+            <p>Desenvolvedor Full Stack & UX Designer</p>
+            <div class="contact">
+                <span>📧 luiz.neto@email.com</span>
+                <span>📱 (11) 99999-9999</span>
+                <span>📍 São Paulo, SP</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>Sobre Mim</h2>
+            <p>Desenvolvedor full stack com 5+ anos de experiência, apaixonado por tecnologia e inovação. Especializado em criar aplicações web e mobile com foco em UX/UI design. Busco sempre aprender novas tecnologias e metodologias para entregar soluções de qualidade.</p>
+        </section>
+
+        <section id="education">
+            <h2>Formação Acadêmica</h2>
+            <ul>
+                <li><strong>Bacharelado em Ciência da Computação</strong> - USP (2016-2020)</li>
+                <li><strong>Pós-Graduação em UX Design</strong> - FIAP (2021-2022)</li>
+                <li><strong>Ensino Médio Técnico em Informática</strong> - ETEC Prof. Basilides (2013-2015)</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Experiência Profissional</h2>
+            <ul>
+                <li><strong>Desenvolvedor Full Stack Sênior</strong> - TechSolutions Inc. (2021-Presente)
+                    <br>Liderança de equipe, desenvolvimento de aplicações web/mobile com React, Node.js</li>
+                <li><strong>Desenvolvedor Front-end Pleno</strong> - InovaWeb Consultoria (2018-2020)
+                    <br>Desenvolvimento de interfaces responsivas com HTML5, CSS3 e JavaScript</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Soft Skills</h2>
+            <div class="skills">
+                <div class="skill">Comunicação Eficaz</div>
+                <div class="skill">Resolução de Problemas</div>
+                <div class="skill">Trabalho em Equipe</div>
+                <div class="skill">Pensamento Crítico</div>
+                <div class="skill">Empatia</div>
+            </div>
+        </section>
+
+        <section id="courses">
+            <h2>Cursos e Aprimoramentos</h2>
+            <ul>
+                <li>React e Redux Avançado - Alura (2022)</li>
+                <li>Certificação AWS Cloud Practitioner (2021)</li>
+                <li>UX Research Methods - IDF (2021)</li>
+                <li>Design System com Figma - Udemy (2020)</li>
+                <li>Desenvolvimento Ágil com Scrum - Coursera (2019)</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Portfólio de Luiz Alves da Silva Neto &copy; 2023</p>
+        </div>
+    </footer>
+</body>
+</html>
